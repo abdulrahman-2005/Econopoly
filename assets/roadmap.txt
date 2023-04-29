@@ -1,0 +1,49 @@
+>> world economy simulation
+	
+	-World
+		-Map 
+		-Suddent Events
+			-Diesasters
+			-boosters
+
+
+	- People
+		- Person
+			-MapPosition
+			-Genome
+			-Feelings (##!)
+			-Actions
+				-work
+					-experince
+					-work_happiness
+					-salary
+				-trade (INVESTMENTS)
+				-reproduce
+			-life
+				-bank_account
+				-marriage
+				-children
+	- Companies
+		- Company
+			-MapPosition
+			- ShareHolders ( People -> Person[s] )
+			- Stocks
+			- Products
+			- Employees ( People -> Person[s] )
+				-salary
+			- BankAccount
+				-dept, loans
+				-bankruptcy
+
+	-Bank (Kinda like a government)
+		-position (EVERY-WHERE)
+		-tax
+		-accounts
+		-investments (to boost companies)
+
+	-Market
+		-Company Stocks
+		-trading platform (FOR stocks, Products)
+			-Banks
+			-People
+			-Companies

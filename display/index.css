@@ -1,0 +1,74 @@
+:root {
+	--main-color: purple;
+	--sub-color: white;
+	--main2-color: hsla(271.1, 75.9%, 52.7%, 1);
+	--sub2-color: black;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box !important;
+	font-weight: bold;
+	font-family: monospace;
+	overflow-x: hidden !important;
+}
+
+html,
+body {
+	height: 100vh !important;
+	width: 100vw !important;
+}
+
+#container {
+	height: 100vh;
+	width: 100vw;
+	padding-top: 1vh;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	background: linear-gradient(to bottom right, #1a2a6c, #3c4fdc, #14325e, #120b60, #090a37);
+}
+
+#map {
+	width: 90%;
+	height: 120vh;
+	background-color: transparent; /*var(--main2-color);*/
+	margin-bottom: 5vh;
+	display: flex;
+	flex-direction: column;
+	gap: 1vw;
+	padding: 5px;
+}
+
+.region-container {
+	background-color: transparent;
+	height: 30vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	gap: 1vw;
+}
+
+.show-region-button {
+	background: radial-gradient(circle at center, rgb(230, 200, 90), #e7cc79);
+	height: 100%;
+	width: calc(100% / 5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-size: 2rem;
+	padding: 15px;
+	border-radius: 25px;
+	
+	cursor: pointer;
+
+	transition: 1s;
+}
+
+.show-region-button:hover {
+	background: radial-gradient(circle at center, rgb(250, 180, 60), #e3e779);
+	border: 5px solid white
+}
