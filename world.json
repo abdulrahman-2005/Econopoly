@@ -1,0 +1,3613 @@
+{
+    "name": "WORLD",
+    "initial_data": {
+        "starting_population": 100,
+        "min_starting_money": 10000,
+        "max_starting_money": 300000,
+        "luck": 0.2222213,
+        "company_required_bank_points": 12,
+        "company_required_starting_cost": 100000,
+        "company_starting_min_person_balance": 200000,
+        "company_yearly_total_tax": 0.09,
+        "person_yearly_total_tax": 0.3
+    },
+    "people": {
+        "person-0": {
+            "ID": "person-0",
+            "name": "person-0 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 1.04,
+                "charisma": 0.75,
+                "beauty": 0.69,
+                "intelligence": 0.87,
+                "focus": 0.78,
+                "expectency": 0.53
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                2,
+                1
+            ],
+            "region": "Serenade",
+            "age": 49.7,
+            "death_age": 94.7,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-1": {
+            "ID": "person-1",
+            "name": "person-1 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.28,
+                "charisma": 0.24,
+                "beauty": 0.38,
+                "intelligence": 0.31,
+                "focus": 0.28,
+                "expectency": 0.15
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                2,
+                2
+            ],
+            "region": "Harmonia",
+            "age": 44.1,
+            "death_age": 65.1,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-2": {
+            "ID": "person-2",
+            "name": "person-2 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 1.18,
+                "charisma": 0.85,
+                "beauty": 0.79,
+                "intelligence": 0.99,
+                "focus": 0.89,
+                "expectency": 1.32
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                4
+            ],
+            "region": "Celestia",
+            "age": 82.0,
+            "death_age": 111.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-3": {
+            "ID": "person-3",
+            "name": "person-3 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.02,
+                "charisma": 0.01,
+                "beauty": 0.02,
+                "intelligence": 0.02,
+                "focus": 0.02,
+                "expectency": -0.18
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                2
+            ],
+            "region": "Summitia",
+            "age": 60.9,
+            "death_age": 91.9,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-4": {
+            "ID": "person-4",
+            "name": "person-4 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.17,
+                "charisma": 0.12,
+                "beauty": 0.11,
+                "intelligence": 0.14,
+                "focus": 0.13,
+                "expectency": 0.14
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                4
+            ],
+            "region": "Echowind",
+            "age": 28.0,
+            "death_age": 42.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-5": {
+            "ID": "person-5",
+            "name": "person-5 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.29,
+                "charisma": 0.26,
+                "beauty": 0.4,
+                "intelligence": 0.33,
+                "focus": 0.29,
+                "expectency": 0.53
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                2
+            ],
+            "region": "Jubilant",
+            "age": 50.4,
+            "death_age": 109.4,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-6": {
+            "ID": "person-6",
+            "name": "person-6 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.45,
+                "charisma": 0.39,
+                "beauty": 0.61,
+                "intelligence": 0.5,
+                "focus": 0.45,
+                "expectency": 0.56
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                1
+            ],
+            "region": "Mystique",
+            "age": 54.0,
+            "death_age": 60.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-7": {
+            "ID": "person-7",
+            "name": "person-7 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.16,
+                "charisma": 0.14,
+                "beauty": 0.22,
+                "intelligence": 0.18,
+                "focus": 0.16,
+                "expectency": 0.0
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                3
+            ],
+            "region": "Solstice",
+            "age": 50.4,
+            "death_age": 58.4,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-8": {
+            "ID": "person-8",
+            "name": "person-8 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.66,
+                "charisma": 0.58,
+                "beauty": 0.91,
+                "intelligence": 0.74,
+                "focus": 0.66,
+                "expectency": 1.08
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                2
+            ],
+            "region": "Summitia",
+            "age": 27.0,
+            "death_age": 37.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-9": {
+            "ID": "person-9",
+            "name": "person-9 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.26,
+                "charisma": 0.19,
+                "beauty": 0.17,
+                "intelligence": 0.22,
+                "focus": 0.2,
+                "expectency": 0.22
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                1
+            ],
+            "region": "Emberias",
+            "age": 67.0,
+            "death_age": 81.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-10": {
+            "ID": "person-10",
+            "name": "person-10 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.28,
+                "charisma": 0.24,
+                "beauty": 0.38,
+                "intelligence": 0.31,
+                "focus": 0.28,
+                "expectency": 0.6
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                2
+            ],
+            "region": "Summitia",
+            "age": 72.8,
+            "death_age": 100.8,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-11": {
+            "ID": "person-11",
+            "name": "person-11 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.2,
+                "charisma": 0.15,
+                "beauty": 0.14,
+                "intelligence": 0.17,
+                "focus": 0.15,
+                "expectency": -0.16
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                2
+            ],
+            "region": "Jubilant",
+            "age": 75.0,
+            "death_age": 79.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-12": {
+            "ID": "person-12",
+            "name": "person-12 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.15,
+                "charisma": 0.13,
+                "beauty": 0.21,
+                "intelligence": 0.17,
+                "focus": 0.15,
+                "expectency": 0.19
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                4
+            ],
+            "region": "Celestia",
+            "age": 18.5,
+            "death_age": 30.5,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-13": {
+            "ID": "person-13",
+            "name": "person-13 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.25,
+                "charisma": 0.22,
+                "beauty": 0.34,
+                "intelligence": 0.28,
+                "focus": 0.25,
+                "expectency": 0.31
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                0
+            ],
+            "region": "Veridian",
+            "age": 46.8,
+            "death_age": 63.8,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-14": {
+            "ID": "person-14",
+            "name": "person-14 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.18,
+                "charisma": 0.16,
+                "beauty": 0.25,
+                "intelligence": 0.2,
+                "focus": 0.18,
+                "expectency": 0.22
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                4
+            ],
+            "region": "Echowind",
+            "age": 65.7,
+            "death_age": 97.7,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-15": {
+            "ID": "person-15",
+            "name": "person-15 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 1.01,
+                "charisma": 0.72,
+                "beauty": 0.67,
+                "intelligence": 0.84,
+                "focus": 0.75,
+                "expectency": 0.84
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                2
+            ],
+            "region": "Summitia",
+            "age": 53.9,
+            "death_age": 107.9,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-16": {
+            "ID": "person-16",
+            "name": "person-16 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.76,
+                "charisma": 0.66,
+                "beauty": 1.04,
+                "intelligence": 0.85,
+                "focus": 0.76,
+                "expectency": 1.28
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                0
+            ],
+            "region": "Aurorise",
+            "age": 49.0,
+            "death_age": 88.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-17": {
+            "ID": "person-17",
+            "name": "person-17 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.33,
+                "charisma": 0.24,
+                "beauty": 0.22,
+                "intelligence": 0.28,
+                "focus": 0.25,
+                "expectency": 0.11
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                2,
+                4
+            ],
+            "region": "Radiance",
+            "age": 50.0,
+            "death_age": 77.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-18": {
+            "ID": "person-18",
+            "name": "person-18 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 1.02,
+                "charisma": 0.73,
+                "beauty": 0.68,
+                "intelligence": 0.85,
+                "focus": 0.76,
+                "expectency": 1.05
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                1
+            ],
+            "region": "Emberias",
+            "age": 47.5,
+            "death_age": 73.5,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-19": {
+            "ID": "person-19",
+            "name": "person-19 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.46,
+                "charisma": 0.33,
+                "beauty": 0.31,
+                "intelligence": 0.38,
+                "focus": 0.34,
+                "expectency": 0.72
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                4
+            ],
+            "region": "Echowind",
+            "age": 43.8,
+            "death_age": 94.8,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-20": {
+            "ID": "person-20",
+            "name": "person-20 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.19,
+                "charisma": 0.16,
+                "beauty": 0.26,
+                "intelligence": 0.21,
+                "focus": 0.19,
+                "expectency": -0.02
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                2,
+                4
+            ],
+            "region": "Radiance",
+            "age": 30.0,
+            "death_age": 42.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-21": {
+            "ID": "person-21",
+            "name": "person-21 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.08,
+                "charisma": 0.06,
+                "beauty": 0.05,
+                "intelligence": 0.07,
+                "focus": 0.06,
+                "expectency": 0.07
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                3
+            ],
+            "region": "Lumisong",
+            "age": 44.0,
+            "death_age": 89.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-22": {
+            "ID": "person-22",
+            "name": "person-22 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.66,
+                "charisma": 0.47,
+                "beauty": 0.44,
+                "intelligence": 0.55,
+                "focus": 0.49,
+                "expectency": 0.22
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                4
+            ],
+            "region": "Celestia",
+            "age": 46.2,
+            "death_age": 69.2,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-23": {
+            "ID": "person-23",
+            "name": "person-23 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.33,
+                "charisma": 0.29,
+                "beauty": 0.45,
+                "intelligence": 0.37,
+                "focus": 0.33,
+                "expectency": 0.61
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                3
+            ],
+            "region": "Solstice",
+            "age": 31.5,
+            "death_age": 36.5,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-24": {
+            "ID": "person-24",
+            "name": "person-24 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.28,
+                "charisma": 0.24,
+                "beauty": 0.38,
+                "intelligence": 0.31,
+                "focus": 0.28,
+                "expectency": 0.01
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                3
+            ],
+            "region": "Lumisong",
+            "age": 51.6,
+            "death_age": 102.6,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-25": {
+            "ID": "person-25",
+            "name": "person-25 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.13,
+                "charisma": 0.11,
+                "beauty": 0.18,
+                "intelligence": 0.15,
+                "focus": 0.13,
+                "expectency": 0.16
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                3
+            ],
+            "region": "Lumisong",
+            "age": 39.6,
+            "death_age": 59.6,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-26": {
+            "ID": "person-26",
+            "name": "person-26 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.28,
+                "charisma": 0.2,
+                "beauty": 0.19,
+                "intelligence": 0.24,
+                "focus": 0.21,
+                "expectency": 0.07
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                4
+            ],
+            "region": "Celestia",
+            "age": 48.6,
+            "death_age": 95.6,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-27": {
+            "ID": "person-27",
+            "name": "person-27 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.19,
+                "charisma": 0.14,
+                "beauty": 0.13,
+                "intelligence": 0.16,
+                "focus": 0.15,
+                "expectency": 0.16
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                3
+            ],
+            "region": "Solstice",
+            "age": 49.8,
+            "death_age": 80.8,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-28": {
+            "ID": "person-28",
+            "name": "person-28 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.46,
+                "charisma": 0.33,
+                "beauty": 0.3,
+                "intelligence": 0.38,
+                "focus": 0.34,
+                "expectency": 0.38
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                1
+            ],
+            "region": "Emberias",
+            "age": 39.9,
+            "death_age": 49.9,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-29": {
+            "ID": "person-29",
+            "name": "person-29 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.79,
+                "charisma": 0.69,
+                "beauty": 1.08,
+                "intelligence": 0.89,
+                "focus": 0.79,
+                "expectency": 0.65
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                2,
+                2
+            ],
+            "region": "Harmonia",
+            "age": 67.9,
+            "death_age": 85.9,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-30": {
+            "ID": "person-30",
+            "name": "person-30 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.46,
+                "charisma": 0.4,
+                "beauty": 0.63,
+                "intelligence": 0.52,
+                "focus": 0.46,
+                "expectency": 0.58
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                3
+            ],
+            "region": "Lumisong",
+            "age": 59.4,
+            "death_age": 61.4,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-31": {
+            "ID": "person-31",
+            "name": "person-31 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.54,
+                "charisma": 0.48,
+                "beauty": 0.75,
+                "intelligence": 0.61,
+                "focus": 0.54,
+                "expectency": 0.43
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                0
+            ],
+            "region": "Aurorise",
+            "age": 35.7,
+            "death_age": 50.7,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-32": {
+            "ID": "person-32",
+            "name": "person-32 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.55,
+                "charisma": 0.48,
+                "beauty": 0.75,
+                "intelligence": 0.61,
+                "focus": 0.55,
+                "expectency": 0.68
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                2,
+                1
+            ],
+            "region": "Serenade",
+            "age": 46.8,
+            "death_age": 55.8,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-33": {
+            "ID": "person-33",
+            "name": "person-33 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.31,
+                "charisma": 0.27,
+                "beauty": 0.43,
+                "intelligence": 0.35,
+                "focus": 0.31,
+                "expectency": 0.64
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                2,
+                0
+            ],
+            "region": "Vividora",
+            "age": 44.8,
+            "death_age": 49.8,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-34": {
+            "ID": "person-34",
+            "name": "person-34 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.3,
+                "charisma": 0.26,
+                "beauty": 0.42,
+                "intelligence": 0.34,
+                "focus": 0.3,
+                "expectency": 0.38
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                4
+            ],
+            "region": "Celestia",
+            "age": 43.0,
+            "death_age": 63.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-35": {
+            "ID": "person-35",
+            "name": "person-35 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.08,
+                "charisma": 0.05,
+                "beauty": 0.05,
+                "intelligence": 0.06,
+                "focus": 0.06,
+                "expectency": 0.06
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                3
+            ],
+            "region": "Lumisong",
+            "age": 24.6,
+            "death_age": 38.6,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-36": {
+            "ID": "person-36",
+            "name": "person-36 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.81,
+                "charisma": 0.58,
+                "beauty": 0.54,
+                "intelligence": 0.68,
+                "focus": 0.61,
+                "expectency": 0.88
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                4
+            ],
+            "region": "Echowind",
+            "age": 31.5,
+            "death_age": 76.5,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-37": {
+            "ID": "person-37",
+            "name": "person-37 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.24,
+                "charisma": 0.17,
+                "beauty": 0.16,
+                "intelligence": 0.2,
+                "focus": 0.18,
+                "expectency": 0.0
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                2
+            ],
+            "region": "Jubilant",
+            "age": 44.0,
+            "death_age": 59.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-38": {
+            "ID": "person-38",
+            "name": "person-38 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.57,
+                "charisma": 0.5,
+                "beauty": 0.78,
+                "intelligence": 0.64,
+                "focus": 0.57,
+                "expectency": 0.71
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                4
+            ],
+            "region": "Echowind",
+            "age": 34.8,
+            "death_age": 61.8,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-39": {
+            "ID": "person-39",
+            "name": "person-39 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.64,
+                "charisma": 0.56,
+                "beauty": 0.88,
+                "intelligence": 0.72,
+                "focus": 0.64,
+                "expectency": 0.8
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                3
+            ],
+            "region": "Solstice",
+            "age": 34.3,
+            "death_age": 50.3,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-40": {
+            "ID": "person-40",
+            "name": "person-40 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.64,
+                "charisma": 0.56,
+                "beauty": 0.88,
+                "intelligence": 0.72,
+                "focus": 0.64,
+                "expectency": 1.0
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                1
+            ],
+            "region": "Emberias",
+            "age": 70.0,
+            "death_age": 86.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-41": {
+            "ID": "person-41",
+            "name": "person-41 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.73,
+                "charisma": 0.64,
+                "beauty": 1.01,
+                "intelligence": 0.82,
+                "focus": 0.73,
+                "expectency": 0.91
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                4
+            ],
+            "region": "Celestia",
+            "age": 50.0,
+            "death_age": 80.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-42": {
+            "ID": "person-42",
+            "name": "person-42 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.65,
+                "charisma": 0.57,
+                "beauty": 0.9,
+                "intelligence": 0.73,
+                "focus": 0.65,
+                "expectency": 0.65
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                3
+            ],
+            "region": "Solstice",
+            "age": 38.5,
+            "death_age": 42.5,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-43": {
+            "ID": "person-43",
+            "name": "person-43 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.1,
+                "charisma": 0.09,
+                "beauty": 0.13,
+                "intelligence": 0.11,
+                "focus": 0.1,
+                "expectency": -0.08
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                2
+            ],
+            "region": "Summitia",
+            "age": 71.2,
+            "death_age": 89.2,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-44": {
+            "ID": "person-44",
+            "name": "person-44 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.55,
+                "charisma": 0.48,
+                "beauty": 0.76,
+                "intelligence": 0.62,
+                "focus": 0.55,
+                "expectency": 0.35
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                1
+            ],
+            "region": "Mystique",
+            "age": 40.0,
+            "death_age": 47.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-45": {
+            "ID": "person-45",
+            "name": "person-45 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.62,
+                "charisma": 0.54,
+                "beauty": 0.85,
+                "intelligence": 0.7,
+                "focus": 0.62,
+                "expectency": 0.94
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                2,
+                4
+            ],
+            "region": "Radiance",
+            "age": 37.0,
+            "death_age": 40.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-46": {
+            "ID": "person-46",
+            "name": "person-46 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.0,
+                "charisma": 0.0,
+                "beauty": 0.0,
+                "intelligence": 0.0,
+                "focus": 0.0,
+                "expectency": 0.0
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                3
+            ],
+            "region": "Lumisong",
+            "age": 38.4,
+            "death_age": 49.4,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-47": {
+            "ID": "person-47",
+            "name": "person-47 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.26,
+                "charisma": 0.19,
+                "beauty": 0.17,
+                "intelligence": 0.22,
+                "focus": 0.19,
+                "expectency": -0.03
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                2,
+                3
+            ],
+            "region": "Eupheres",
+            "age": 26.4,
+            "death_age": 30.4,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-48": {
+            "ID": "person-48",
+            "name": "person-48 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.49,
+                "charisma": 0.35,
+                "beauty": 0.33,
+                "intelligence": 0.41,
+                "focus": 0.37,
+                "expectency": 0.66
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                2,
+                4
+            ],
+            "region": "Radiance",
+            "age": 93.0,
+            "death_age": 139.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-49": {
+            "ID": "person-49",
+            "name": "person-49 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.83,
+                "charisma": 0.59,
+                "beauty": 0.55,
+                "intelligence": 0.69,
+                "focus": 0.62,
+                "expectency": 0.49
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                2
+            ],
+            "region": "Jubilant",
+            "age": 30.0,
+            "death_age": 40.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-50": {
+            "ID": "person-50",
+            "name": "person-50 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.66,
+                "charisma": 0.48,
+                "beauty": 0.44,
+                "intelligence": 0.55,
+                "focus": 0.5,
+                "expectency": 0.55
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                3
+            ],
+            "region": "Solstice",
+            "age": 27.0,
+            "death_age": 30.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-51": {
+            "ID": "person-51",
+            "name": "person-51 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.37,
+                "charisma": 0.26,
+                "beauty": 0.25,
+                "intelligence": 0.31,
+                "focus": 0.28,
+                "expectency": 0.31
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                2,
+                3
+            ],
+            "region": "Eupheres",
+            "age": 63.2,
+            "death_age": 91.2,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-52": {
+            "ID": "person-52",
+            "name": "person-52 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.54,
+                "charisma": 0.39,
+                "beauty": 0.36,
+                "intelligence": 0.45,
+                "focus": 0.41,
+                "expectency": 0.2
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                2,
+                4
+            ],
+            "region": "Radiance",
+            "age": 60.2,
+            "death_age": 77.2,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-53": {
+            "ID": "person-53",
+            "name": "person-53 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.7,
+                "charisma": 0.61,
+                "beauty": 0.96,
+                "intelligence": 0.79,
+                "focus": 0.7,
+                "expectency": 0.71
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                3
+            ],
+            "region": "Lumisong",
+            "age": 64.4,
+            "death_age": 70.4,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-54": {
+            "ID": "person-54",
+            "name": "person-54 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 1.09,
+                "charisma": 0.78,
+                "beauty": 0.73,
+                "intelligence": 0.91,
+                "focus": 0.82,
+                "expectency": 1.16
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                2,
+                4
+            ],
+            "region": "Radiance",
+            "age": 59.4,
+            "death_age": 109.4,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-55": {
+            "ID": "person-55",
+            "name": "person-55 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.37,
+                "charisma": 0.27,
+                "beauty": 0.25,
+                "intelligence": 0.31,
+                "focus": 0.28,
+                "expectency": 0.64
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                2,
+                1
+            ],
+            "region": "Serenade",
+            "age": 95.0,
+            "death_age": 96.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-56": {
+            "ID": "person-56",
+            "name": "person-56 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.77,
+                "charisma": 0.68,
+                "beauty": 1.06,
+                "intelligence": 0.87,
+                "focus": 0.77,
+                "expectency": 1.22
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                2,
+                2
+            ],
+            "region": "Harmonia",
+            "age": 23.0,
+            "death_age": 30.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-57": {
+            "ID": "person-57",
+            "name": "person-57 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.61,
+                "charisma": 0.44,
+                "beauty": 0.4,
+                "intelligence": 0.51,
+                "focus": 0.46,
+                "expectency": 0.76
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                0
+            ],
+            "region": "Veridian",
+            "age": 29.0,
+            "death_age": 54.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-58": {
+            "ID": "person-58",
+            "name": "person-58 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.38,
+                "charisma": 0.27,
+                "beauty": 0.25,
+                "intelligence": 0.32,
+                "focus": 0.28,
+                "expectency": 0.65
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                4
+            ],
+            "region": "Celestia",
+            "age": 42.5,
+            "death_age": 56.5,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-59": {
+            "ID": "person-59",
+            "name": "person-59 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.4,
+                "charisma": 0.29,
+                "beauty": 0.27,
+                "intelligence": 0.33,
+                "focus": 0.3,
+                "expectency": -0.0
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                2
+            ],
+            "region": "Jubilant",
+            "age": 62.4,
+            "death_age": 74.4,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-60": {
+            "ID": "person-60",
+            "name": "person-60 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.0,
+                "charisma": 0.0,
+                "beauty": 0.0,
+                "intelligence": 0.0,
+                "focus": 0.0,
+                "expectency": -0.25
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                4
+            ],
+            "region": "Celestia",
+            "age": 28.0,
+            "death_age": 31.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-61": {
+            "ID": "person-61",
+            "name": "person-61 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.63,
+                "charisma": 0.55,
+                "beauty": 0.86,
+                "intelligence": 0.71,
+                "focus": 0.63,
+                "expectency": 0.45
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                2,
+                1
+            ],
+            "region": "Serenade",
+            "age": 35.5,
+            "death_age": 52.5,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-62": {
+            "ID": "person-62",
+            "name": "person-62 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.74,
+                "charisma": 0.65,
+                "beauty": 1.02,
+                "intelligence": 0.84,
+                "focus": 0.74,
+                "expectency": 0.76
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                2,
+                3
+            ],
+            "region": "Eupheres",
+            "age": 51.1,
+            "death_age": 88.1,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-63": {
+            "ID": "person-63",
+            "name": "person-63 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.52,
+                "charisma": 0.46,
+                "beauty": 0.72,
+                "intelligence": 0.59,
+                "focus": 0.52,
+                "expectency": 0.82
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                4
+            ],
+            "region": "Celestia",
+            "age": 64.8,
+            "death_age": 88.8,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-64": {
+            "ID": "person-64",
+            "name": "person-64 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.78,
+                "charisma": 0.56,
+                "beauty": 0.52,
+                "intelligence": 0.65,
+                "focus": 0.59,
+                "expectency": 0.82
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                3
+            ],
+            "region": "Lumisong",
+            "age": 37.6,
+            "death_age": 39.6,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-65": {
+            "ID": "person-65",
+            "name": "person-65 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 1.04,
+                "charisma": 0.74,
+                "beauty": 0.69,
+                "intelligence": 0.86,
+                "focus": 0.78,
+                "expectency": 1.11
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                0
+            ],
+            "region": "Aurorise",
+            "age": 48.0,
+            "death_age": 50.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-66": {
+            "ID": "person-66",
+            "name": "person-66 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.38,
+                "charisma": 0.27,
+                "beauty": 0.25,
+                "intelligence": 0.31,
+                "focus": 0.28,
+                "expectency": 0.11
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                2,
+                3
+            ],
+            "region": "Eupheres",
+            "age": 80.0,
+            "death_age": 89.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-67": {
+            "ID": "person-67",
+            "name": "person-67 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.7,
+                "charisma": 0.61,
+                "beauty": 0.96,
+                "intelligence": 0.78,
+                "focus": 0.7,
+                "expectency": 0.62
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                2,
+                4
+            ],
+            "region": "Radiance",
+            "age": 47.6,
+            "death_age": 111.6,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-68": {
+            "ID": "person-68",
+            "name": "person-68 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.52,
+                "charisma": 0.46,
+                "beauty": 0.72,
+                "intelligence": 0.59,
+                "focus": 0.52,
+                "expectency": 0.9
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                2,
+                2
+            ],
+            "region": "Harmonia",
+            "age": 62.4,
+            "death_age": 80.4,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-69": {
+            "ID": "person-69",
+            "name": "person-69 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.18,
+                "charisma": 0.16,
+                "beauty": 0.25,
+                "intelligence": 0.2,
+                "focus": 0.18,
+                "expectency": 0.48
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                3
+            ],
+            "region": "Solstice",
+            "age": 32.0,
+            "death_age": 42.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-70": {
+            "ID": "person-70",
+            "name": "person-70 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.21,
+                "charisma": 0.15,
+                "beauty": 0.14,
+                "intelligence": 0.18,
+                "focus": 0.16,
+                "expectency": 0.18
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                1
+            ],
+            "region": "Mystique",
+            "age": 42.0,
+            "death_age": 46.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-71": {
+            "ID": "person-71",
+            "name": "person-71 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.12,
+                "charisma": 0.11,
+                "beauty": 0.17,
+                "intelligence": 0.14,
+                "focus": 0.12,
+                "expectency": -0.05
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                2
+            ],
+            "region": "Jubilant",
+            "age": 53.6,
+            "death_age": 57.6,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-72": {
+            "ID": "person-72",
+            "name": "person-72 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.2,
+                "charisma": 0.17,
+                "beauty": 0.27,
+                "intelligence": 0.22,
+                "focus": 0.2,
+                "expectency": 0.24
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                2,
+                0
+            ],
+            "region": "Vividora",
+            "age": 25.8,
+            "death_age": 54.8,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-73": {
+            "ID": "person-73",
+            "name": "person-73 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.62,
+                "charisma": 0.54,
+                "beauty": 0.85,
+                "intelligence": 0.7,
+                "focus": 0.62,
+                "expectency": 0.94
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                4
+            ],
+            "region": "Echowind",
+            "age": 78.0,
+            "death_age": 119.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-74": {
+            "ID": "person-74",
+            "name": "person-74 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 1.02,
+                "charisma": 0.73,
+                "beauty": 0.68,
+                "intelligence": 0.85,
+                "focus": 0.77,
+                "expectency": 0.68
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                2,
+                3
+            ],
+            "region": "Eupheres",
+            "age": 30.6,
+            "death_age": 59.6,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-75": {
+            "ID": "person-75",
+            "name": "person-75 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.75,
+                "charisma": 0.65,
+                "beauty": 1.03,
+                "intelligence": 0.84,
+                "focus": 0.75,
+                "expectency": 1.27
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                2,
+                0
+            ],
+            "region": "Vividora",
+            "age": 47.7,
+            "death_age": 103.7,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-76": {
+            "ID": "person-76",
+            "name": "person-76 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.27,
+                "charisma": 0.19,
+                "beauty": 0.18,
+                "intelligence": 0.22,
+                "focus": 0.2,
+                "expectency": -0.11
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                1
+            ],
+            "region": "Emberias",
+            "age": 45.0,
+            "death_age": 72.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-77": {
+            "ID": "person-77",
+            "name": "person-77 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.47,
+                "charisma": 0.33,
+                "beauty": 0.31,
+                "intelligence": 0.39,
+                "focus": 0.35,
+                "expectency": 0.14
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                0
+            ],
+            "region": "Aurorise",
+            "age": 51.0,
+            "death_age": 52.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-78": {
+            "ID": "person-78",
+            "name": "person-78 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.38,
+                "charisma": 0.33,
+                "beauty": 0.53,
+                "intelligence": 0.43,
+                "focus": 0.38,
+                "expectency": 0.65
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                0
+            ],
+            "region": "Veridian",
+            "age": 68.6,
+            "death_age": 77.6,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-79": {
+            "ID": "person-79",
+            "name": "person-79 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.37,
+                "charisma": 0.32,
+                "beauty": 0.51,
+                "intelligence": 0.42,
+                "focus": 0.37,
+                "expectency": 0.46
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                2,
+                3
+            ],
+            "region": "Eupheres",
+            "age": 72.0,
+            "death_age": 79.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-80": {
+            "ID": "person-80",
+            "name": "person-80 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.55,
+                "charisma": 0.4,
+                "beauty": 0.37,
+                "intelligence": 0.46,
+                "focus": 0.42,
+                "expectency": 0.26
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                4
+            ],
+            "region": "Echowind",
+            "age": 35.7,
+            "death_age": 45.7,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-81": {
+            "ID": "person-81",
+            "name": "person-81 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.24,
+                "charisma": 0.21,
+                "beauty": 0.33,
+                "intelligence": 0.27,
+                "focus": 0.24,
+                "expectency": 0.1
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                2
+            ],
+            "region": "Summitia",
+            "age": 41.0,
+            "death_age": 46.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-82": {
+            "ID": "person-82",
+            "name": "person-82 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.4,
+                "charisma": 0.35,
+                "beauty": 0.55,
+                "intelligence": 0.45,
+                "focus": 0.4,
+                "expectency": 0.5
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                4
+            ],
+            "region": "Echowind",
+            "age": 53.6,
+            "death_age": 65.6,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-83": {
+            "ID": "person-83",
+            "name": "person-83 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.05,
+                "charisma": 0.04,
+                "beauty": 0.03,
+                "intelligence": 0.04,
+                "focus": 0.04,
+                "expectency": -0.16
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                0
+            ],
+            "region": "Aurorise",
+            "age": 36.8,
+            "death_age": 69.8,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-84": {
+            "ID": "person-84",
+            "name": "person-84 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.58,
+                "charisma": 0.51,
+                "beauty": 0.79,
+                "intelligence": 0.65,
+                "focus": 0.58,
+                "expectency": 0.56
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                1
+            ],
+            "region": "Emberias",
+            "age": 50.0,
+            "death_age": 59.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-85": {
+            "ID": "person-85",
+            "name": "person-85 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 1.03,
+                "charisma": 0.74,
+                "beauty": 0.69,
+                "intelligence": 0.86,
+                "focus": 0.77,
+                "expectency": 0.53
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                1
+            ],
+            "region": "Emberias",
+            "age": 73.0,
+            "death_age": 79.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-86": {
+            "ID": "person-86",
+            "name": "person-86 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.41,
+                "charisma": 0.36,
+                "beauty": 0.56,
+                "intelligence": 0.46,
+                "focus": 0.41,
+                "expectency": 0.76
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                4
+            ],
+            "region": "Echowind",
+            "age": 49.0,
+            "death_age": 68.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-87": {
+            "ID": "person-87",
+            "name": "person-87 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.11,
+                "charisma": 0.1,
+                "beauty": 0.15,
+                "intelligence": 0.12,
+                "focus": 0.11,
+                "expectency": 0.39
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                1
+            ],
+            "region": "Mystique",
+            "age": 40.0,
+            "death_age": 71.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-88": {
+            "ID": "person-88",
+            "name": "person-88 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.44,
+                "charisma": 0.31,
+                "beauty": 0.29,
+                "intelligence": 0.37,
+                "focus": 0.33,
+                "expectency": 0.03
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                2,
+                4
+            ],
+            "region": "Radiance",
+            "age": 52.0,
+            "death_age": 55.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-89": {
+            "ID": "person-89",
+            "name": "person-89 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.41,
+                "charisma": 0.29,
+                "beauty": 0.27,
+                "intelligence": 0.34,
+                "focus": 0.31,
+                "expectency": 0.34
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                4
+            ],
+            "region": "Echowind",
+            "age": 58.2,
+            "death_age": 77.2,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-90": {
+            "ID": "person-90",
+            "name": "person-90 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.12,
+                "charisma": 0.11,
+                "beauty": 0.17,
+                "intelligence": 0.14,
+                "focus": 0.12,
+                "expectency": 0.15
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                2,
+                2
+            ],
+            "region": "Harmonia",
+            "age": 56.0,
+            "death_age": 58.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-91": {
+            "ID": "person-91",
+            "name": "person-91 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.52,
+                "charisma": 0.38,
+                "beauty": 0.35,
+                "intelligence": 0.44,
+                "focus": 0.39,
+                "expectency": 0.44
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                2,
+                0
+            ],
+            "region": "Vividora",
+            "age": 49.0,
+            "death_age": 77.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-92": {
+            "ID": "person-92",
+            "name": "person-92 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.34,
+                "charisma": 0.24,
+                "beauty": 0.22,
+                "intelligence": 0.28,
+                "focus": 0.25,
+                "expectency": 0.28
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                0
+            ],
+            "region": "Aurorise",
+            "age": 32.2,
+            "death_age": 45.2,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-93": {
+            "ID": "person-93",
+            "name": "person-93 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.04,
+                "charisma": 0.03,
+                "beauty": 0.05,
+                "intelligence": 0.04,
+                "focus": 0.04,
+                "expectency": 0.04
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                1
+            ],
+            "region": "Mystique",
+            "age": 34.2,
+            "death_age": 77.2,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-94": {
+            "ID": "person-94",
+            "name": "person-94 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.33,
+                "charisma": 0.24,
+                "beauty": 0.22,
+                "intelligence": 0.27,
+                "focus": 0.25,
+                "expectency": -0.06
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                2,
+                1
+            ],
+            "region": "Serenade",
+            "age": 45.0,
+            "death_age": 48.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-95": {
+            "ID": "person-95",
+            "name": "person-95 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.08,
+                "charisma": 0.07,
+                "beauty": 0.11,
+                "intelligence": 0.09,
+                "focus": 0.08,
+                "expectency": 0.43
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                2
+            ],
+            "region": "Jubilant",
+            "age": 24.5,
+            "death_age": 76.5,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-96": {
+            "ID": "person-96",
+            "name": "person-96 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 1.11,
+                "charisma": 0.79,
+                "beauty": 0.74,
+                "intelligence": 0.92,
+                "focus": 0.83,
+                "expectency": 0.72
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                2
+            ],
+            "region": "Jubilant",
+            "age": 78.4,
+            "death_age": 109.4,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-97": {
+            "ID": "person-97",
+            "name": "person-97 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "female",
+            "attributes": {
+                "strength": 0.36,
+                "charisma": 0.31,
+                "beauty": 0.49,
+                "intelligence": 0.4,
+                "focus": 0.36,
+                "expectency": 0.45
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                1,
+                2
+            ],
+            "region": "Jubilant",
+            "age": 25.2,
+            "death_age": 43.2,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            },
+            "pregnancy": null
+        },
+        "person-98": {
+            "ID": "person-98",
+            "name": "person-98 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.13,
+                "charisma": 0.09,
+                "beauty": 0.08,
+                "intelligence": 0.11,
+                "focus": 0.1,
+                "expectency": -0.06
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                2,
+                1
+            ],
+            "region": "Serenade",
+            "age": 57.6,
+            "death_age": 62.6,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-99": {
+            "ID": "person-99",
+            "name": "person-99 WORLD_",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 0.91,
+                "charisma": 0.65,
+                "beauty": 0.6,
+                "intelligence": 0.76,
+                "focus": 0.68,
+                "expectency": 0.56
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                0,
+                3
+            ],
+            "region": "Lumisong",
+            "age": 92.0,
+            "death_age": 145.0,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        },
+        "person-100": {
+            "ID": "person-100",
+            "name": "-------------------------------------------------",
+            "partner": null,
+            "children": null,
+            "companies": null,
+            "gender": "male",
+            "attributes": {
+                "strength": 1.02,
+                "charisma": 0.73,
+                "beauty": 0.68,
+                "intelligence": 0.85,
+                "focus": 0.77,
+                "expectency": 0.65
+            },
+            "health": 100,
+            "status": "born",
+            "location": [
+                2,
+                3
+            ],
+            "region": "Eupheres",
+            "age": 10000,
+            "death_age": 46.8,
+            "work": {
+                "current_company": null,
+                "last_company": null
+            }
+        }
+    },
+    "dead_people": [],
+    "bank": {
+        "world": {
+            "user_balance": 19737401.218333498,
+            "balance": 9980262498.781666
+        },
+        "people": {
+            "person-0": {
+                "balance": 166168.3190628,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-1": {
+                "balance": 91354.9310685,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-2": {
+                "balance": 84171.9364884,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-3": {
+                "balance": 106533.6973932,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-4": {
+                "balance": 81773.93829779999,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-5": {
+                "balance": 45143.9659368,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-6": {
+                "balance": 214562.1714363,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-7": {
+                "balance": 299262.1075263,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-8": {
+                "balance": 52809.7379304,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-9": {
+                "balance": 212698.28395379998,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-10": {
+                "balance": 77971.60783349999,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-11": {
+                "balance": 99936.14681579999,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-12": {
+                "balance": 300984.217338,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-13": {
+                "balance": 124180.12852259999,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-14": {
+                "balance": 91761.9307614,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-15": {
+                "balance": 322980.53407409997,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-16": {
+                "balance": 357256.5082113,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-17": {
+                "balance": 307061.10164159996,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-18": {
+                "balance": 289499.0037819,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-19": {
+                "balance": 268819.0193859,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-20": {
+                "balance": 314118.2074278,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-21": {
+                "balance": 319708.647654,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-22": {
+                "balance": 270808.79566229996,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-23": {
+                "balance": 227358.82844729998,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-24": {
+                "balance": 212639.6173314,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-25": {
+                "balance": 244535.9265975,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-26": {
+                "balance": 38513.4153843,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-27": {
+                "balance": 343084.85223779996,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-28": {
+                "balance": 119787.4651704,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-29": {
+                "balance": 364554.3915936,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-30": {
+                "balance": 280477.7883666,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-31": {
+                "balance": 44372.7442965,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-32": {
+                "balance": 296117.3321214,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-33": {
+                "balance": 314643.7625868,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-34": {
+                "balance": 30840.3100629,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-35": {
+                "balance": 162764.4327423,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-36": {
+                "balance": 93726.0403905,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-37": {
+                "balance": 297998.3307021,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-38": {
+                "balance": 39444.7480149,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-39": {
+                "balance": 126875.12648909999,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-40": {
+                "balance": 171797.8703706,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-41": {
+                "balance": 253969.0305909,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-42": {
+                "balance": 295044.22182,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-43": {
+                "balance": 239952.5967225,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-44": {
+                "balance": 47440.5197595,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-45": {
+                "balance": 155191.54956749998,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-46": {
+                "balance": 296952.1092693,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-47": {
+                "balance": 238234.1535747,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-48": {
+                "balance": 167203.5405039,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-49": {
+                "balance": 311678.653713,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-50": {
+                "balance": 253769.80851899998,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-51": {
+                "balance": 16751.7651378,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-52": {
+                "balance": 303824.65963919996,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-53": {
+                "balance": 306469.5465324,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-54": {
+                "balance": 215212.39316789998,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-55": {
+                "balance": 184919.6382474,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-56": {
+                "balance": 355409.731827,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-57": {
+                "balance": 348592.1814156,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-58": {
+                "balance": 141681.1153173,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-59": {
+                "balance": 113101.91465939999,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-60": {
+                "balance": 192620.8546587,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-61": {
+                "balance": 48869.2964592,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-62": {
+                "balance": 300784.9952661,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-63": {
+                "balance": 162678.8772513,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-64": {
+                "balance": 311753.20921229996,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-65": {
+                "balance": 79083.8292165,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-66": {
+                "balance": 345770.0724339,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-67": {
+                "balance": 138034.00695809998,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-68": {
+                "balance": 125916.9049899,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-69": {
+                "balance": 116901.8006811,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-70": {
+                "balance": 286910.3390685,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-71": {
+                "balance": 142711.4478732,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-72": {
+                "balance": 133615.6769586,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-73": {
+                "balance": 275195.347908,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-74": {
+                "balance": 138421.4511102,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-75": {
+                "balance": 75851.05387799999,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-76": {
+                "balance": 304858.658859,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-77": {
+                "balance": 200045.84905619998,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-78": {
+                "balance": 245217.9260829,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-79": {
+                "balance": 342551.963751,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-80": {
+                "balance": 105634.1425164,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-81": {
+                "balance": 252529.25389949998,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-82": {
+                "balance": 287289.2276715,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-83": {
+                "balance": 224627.16384179998,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-84": {
+                "balance": 207538.0656252,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-85": {
+                "balance": 221266.0552668,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-86": {
+                "balance": 34629.1960929,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-87": {
+                "balance": 177987.1990338,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-88": {
+                "balance": 159738.2128035,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-89": {
+                "balance": 247801.70191109998,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-90": {
+                "balance": 124801.016943,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-91": {
+                "balance": 258854.249127,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-92": {
+                "balance": 175941.2005776,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-93": {
+                "balance": 31401.3096396,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-94": {
+                "balance": 240916.9293282,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-95": {
+                "balance": 229487.93795189998,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-96": {
+                "balance": 76019.72041739999,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-97": {
+                "balance": 278730.0119076,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-98": {
+                "balance": 166819.76301569998,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-99": {
+                "balance": 113098.2479955,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            },
+            "person-100": {
+                "balance": 200000,
+                "stocks": {},
+                "loans": [],
+                "points": 0
+            }
+        },
+        "companies": {}
+    }
+}

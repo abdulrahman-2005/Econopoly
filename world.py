@@ -1,107 +1,102 @@
-from person import create_person
-from utils import coord_to_region_name, regions_prefered_name_ranges, load_json, save_json, save_display, reset_runtime
-from bank import bank_, bank_account
+import random
+from person import create_person, person_die
+from utils import load_json, save_json
 
-world_template = {
-	"NAME": "WORLD_0_1",
-	"ID": "001",
-	"date": 0,
-	"bank": bank_.copy(),
-	"regions_coord": coord_to_region_name.copy()
+default_world = {
+    "starting_population": 100,
+    "min_starting_money": 10_000,
+    "max_starting_money": 300_000,
+    "luck": .2222213,
+    "company_required_bank_points": 12,
+    "company_required_starting_cost": 100_000,
+    "company_starting_min_person_balance": 200_000,
+    "company_yearly_total_tax": .09,
+    "person_yearly_total_tax": .3,
 }
 
 
-def world(starting_population: int = 1000):
-    reset_runtime()
-    w_ = world_template
+def new_world(initial_data: dict = default_world):
+    people = [create_person() for _ in range(initial_data["starting_population"])]
+    people_ = {}
+    for person in people:
+        people_[person["ID"]] = person
+    people = people_
+    del people_
     
-    people = [create_person() for i in range(starting_population)]
-    w_["people"] = people
-        
-    temp = {p["id"]: p for p in w_["people"]}
-    w_["people"] = temp
+    bank = {
+        "world": {},
+        "people": {},
+        "companies": {}
+    }
+    for _, person in people.items():
+        bank["people"][person["ID"]] = {
+            "balance": random.randint(initial_data["min_starting_money"], initial_data["max_starting_money"])*(1+initial_data["luck"]),
+            "stocks": {},
+            "loans": [],
+            "points": 0
+        }
     
-    w_["dead_people"] = []
-    w_["map"] = regions_prefered_name_ranges.copy()
+    bank["world"] = {
+        "user_balance": (s:=sum([v["balance"] for k,v in bank["people"].items()])),
+        "balance": 99999999*initial_data["starting_population"]-s,
+    }
     
-    w_["companies"] = {}
     
-    for p_id, person in w_["people"].items():
-        w_["map"][person["region"]]["people"].append(p_id)
-        
-    save_json(new_data=w_)
-    return w_
-
-#THE ACTUAL HELL (WHAT RUNS THE SIMULATION)
-def male__(person: dict, world):
-	pass
-
-def female__(person: dict, world):
-	pass
-
-def company__(company: dict, world):
-	pass
-
-bank_ = {
-	"name": "WORLD_BANK",
-	"owner": "WORLD",
-	"accounts": {
-		"world": bank_account(1_000_000_000_000, 9999),
-		"company": {},
-		"person": {}
-	},
-	"loans": {
-		"company": {},
-		"person": {}
-	}
-}
+    return {
+        "name": "WORLD",
+        "initial_data": initial_data,
+        "people": people,
+        "dead_people": [],
+        "bank": bank,
+    }
 
 
-def bank__(world):
-	bank_data = world["bank"]
-	mod_data = bank_data.copy()
-	#people loop
-	for acc in bank_data:
-		pass
-	#account
-	#tax
+def load_world(path: str) -> dict | ValueError:
+    return load_json(path)
 
-	#companies loop
-	#account
-	#tax
+def save_world(path: str, world: dict) -> None:
+    save_json(path, world)
 
-	#tax loop
 
-def market__(world):
-	pass
 
-#MAIN LOOP
+def create_company_bank_account(world: dict, company: dict, person: dict) -> bool:
+    min_balance = world["initial_data"]["company_required_starting_cost"]
 
-def main(new=False, years_to_simulate=10):
-	if new:
-		world_ = world(starting_population = int(input("[int] (population): ")))
-	else:
-		world_ = load_json()
-
-	for i in range(years_to_simulate*365):
-		world_["date"] += 1
-		for p in world_["people"]:
-			p = world_["people"][p]
-			if p["genome"]["gender"] == "male":
-				male__(p, world_)
-			else:
-				female__(p, world_)
-
-		for c in world_["companies"]:
-			c = world_["companies"][c]
-			company__(c, world_)
+    company_ID = company["ID"]
     
-		bank__(world_)
-		market__(world_)
+    if company_ID in world["bank"]["companies"]:
+        company["ID"] = company_ID + "_"
+    
+    company_ID = company["ID"]
+    
+    world["bank"]["companies"][company_ID] = {
+        "balance": min_balance,
+        "stocks": {},
+        "loans": [],
+        "points": 0
+    }
+    
+    world["bank"]["people"][person["ID"]]["balance"] -= min_balance
+    
+    return True
 
-		
+def person_(world: dict, person: dict) -> None:
+    person["age"] += 1/365
+    if person["age"] >= person["death_age"]:
+        person_die(world, person)
 
-	save_json(new_data=world_)
-	save_display(world_)
+def male_(world: dict, person: dict) -> None:
+    person_(world, person)
 
-main(new=True)
+def female_(world: dict, person: dict) -> None:
+    person_(world, person)
+
+def bank_(world) -> None:
+    bank = world["bank"]
+    pass
+
+
+if __name__ == "__main__":
+    world_bank = new_world()["bank"]
+    print(world_bank["world"]["user_balance"])
+    print(world_bank["world"]["balance"])
